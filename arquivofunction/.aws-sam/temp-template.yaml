@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.sdapi.arquivo.lambda.Arquivo
+      CodeUri: C:\Users\fmaci\OneDrive\Projetos\workspaces\workspace_sdapi\sdapi-aws-lambda-exemplo-intelij\arquivofunction
+      Runtime: java11
+      Architectures:
+        - x86_64
